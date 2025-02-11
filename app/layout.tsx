@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Favour & Adam Gender reveal Poll App",
-  description: "Created by Peggy Roxy with next reactjs",
+  title: "Osorochi's Valentines day card",
+  description: "Created by Peggy Roxy with love",
 };
 
 export default function RootLayout({
