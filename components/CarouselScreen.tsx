@@ -4,26 +4,28 @@ import { Card, CardContent } from "@/components/ui/card";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from 'next/image';
 import features from '@/lib/features';
-import FloatingHeart from '@/lib/floatingheart';
+import { FloatingHeartsContainer } from '@/lib/floatingheart';
 
 const CarouselScreen = () => {
-    const [currentIndex, setCurrentIndex] = useState(0);
-    const hearts = [0, 1, 2, 3, 4];
-  
-    useEffect(() => {
-      const timer = setInterval(() => {
-        setCurrentIndex((prev) => (prev + 1) % features.length);
-      }, 5000);
-  
-      return () => clearInterval(timer);
-    }, []);
-  
-    return (
-      <div className="min-h-screen w-full bg-gradient-to-br from-pink-100 to-red-100 flex flex-col items-center justify-center relative overflow-hidden px-4 sm:px-6">
-      {hearts.map((heart) => (
-          <FloatingHeart key={heart} />
-        ))}
-        
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentIndex((prev) => (prev + 1) % features.length);
+    }, 5000);
+
+    return () => clearInterval(timer);
+  }, []);
+
+  return (
+    <div className="min-h-screen w-full bg-gradient-to-br from-pink-100 to-red-100 flex flex-col items-center justify-center relative overflow-hidden px-4 sm:px-6">
+      {/* Single FloatingHeartsContainer instance */}
+      <div className="absolute inset-0 items-center justify-center">
+      </div>
+      
+      {/* Main content */}
+      <FloatingHeartsContainer/>
+      <div className="relative z-10 w-full"> {/* Added z-index and relative positioning */}
         <AnimatePresence mode="wait">
           <motion.div
             key={currentIndex}
@@ -39,14 +41,14 @@ const CarouselScreen = () => {
                   initial={{ scale: 0.8 }}
                   animate={{ scale: 1 }}
                   transition={{ duration: 0.5 }}
-                  className='aspect-video relative overflow-hidden rounded-lg'
+                  className="aspect-video relative overflow-hidden rounded-lg"
                 >
                   <Image
                     src={features[currentIndex].imgSrc}
                     width={800}
                     height={500}
                     alt="Valentine memory"
-                    className="w-full h-full object-fit shadow-md"
+                    className="w-full h-full object-fit shadow-md" /* Changed object-fit to object-cover */
                   />
                 </motion.div>
                 
@@ -63,6 +65,8 @@ const CarouselScreen = () => {
           </motion.div>
         </AnimatePresence>
       </div>
-    );
-  };
-  export default CarouselScreen;
+    </div>
+  );
+};
+
+export default CarouselScreen;
