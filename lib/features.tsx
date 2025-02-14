@@ -1,6 +1,6 @@
 const features = [
     {
-      text: "Your beautiful smile lights up my entire world ✨",
+      text: "You give me courage to face every obstacle in the pursuit of my goals✨",
       imgSrc: "/v1.jpg",
       color: "bg-pink-100"
     },
@@ -15,37 +15,37 @@ const features = [
       color: "bg-rose-100"
     },
     {
-      text: "Your intelligence and wit never cease to amaze me 💫",
+      text: "You provide for your family relentlessly and I'm in awe of you 💫",
       imgSrc: "/v4.jpg",
       color: "bg-purple-100"
     },
     {
-      text: "Your beautiful smile lights up my entire world ✨",
+      text: "With you, our relationship is filled with so much laughter, giggles, joy and now more kids ✨",
       imgSrc: "/v5.jpg",
       color: "bg-pink-100"
     },
     {
-      text: "Your kindness and compassion inspire me every day 💖",
+      text: "You support and believe in me, even when the dreams are shaky 💖",
       imgSrc: "/v6.jpg",
       color: "bg-red-100"
     },
     {
-      text: "The way you make me laugh even on my worst days 🌟",
+      text: "I'm grateful for you, your life and your service to God and man.🌟",
       imgSrc: "/v7.jpg",
       color: "bg-rose-100"
     },
     {
-      text: "Your intelligence and wit never cease to amaze me 💫",
+      text: "Thank you for loving me, the kids, your family and all around you. Thank you for loving me, the kids, your family and all around you.💫",
       imgSrc: "/v8.jpg",
       color: "bg-purple-100"
     },
     {
-      text: "The way you make me laugh even on my worst days 🌟",
+      text: "Thank you for being you, for loving me the way you do and for making our relationship your priority  🌟",
       imgSrc: "/v9.jpg",
       color: "bg-rose-100"
     },
     {
-      text: "Your intelligence and wit never cease to amaze me 💫",
+      text: "Your intelligence and wit never cease to amaze me. Happy Valentine's Day MM.💫",
       imgSrc: "/v10.jpg",
       color: "bg-purple-100"
     },
