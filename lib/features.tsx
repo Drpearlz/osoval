@@ -30,17 +30,17 @@ const features = [
       color: "bg-red-100"
     },
     {
-      text: "The way you make me laugh even on my worst days 🌟",
+      text: "I'm grateful for you, your live and your service to God and man.🌟",
       imgSrc: "/v7.jpg",
       color: "bg-rose-100"
     },
     {
-      text: "Your intelligence and wit never cease to amaze me 💫",
+      text: "Thank you for loving me, the kids, your family and all around you.Thank you for loving me, the kids, your family and all around you.💫",
       imgSrc: "/v8.jpg",
       color: "bg-purple-100"
     },
     {
-      text: "The way you make me laugh even on my worst days 🌟",
+      text: "Thank you for being you, for loving me the way you do and for making our relationship your priority  🌟",
       imgSrc: "/v9.jpg",
       color: "bg-rose-100"
     },
