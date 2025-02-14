@@ -1,6 +1,6 @@
 const features = [
     {
-      text: "You give me courage to face every obstacle in the pursuit of my goals.✨",
+      text: "You give me courage to face every obstacle in the pursuit of my goals✨",
       imgSrc: "/v1.jpg",
       color: "bg-pink-100"
     },
@@ -15,7 +15,7 @@ const features = [
       color: "bg-rose-100"
     },
     {
-      text: "You provide for your family relentless and I'm in awe of you 💫",
+      text: "You provide for your family relentlessly and I'm in awe of you 💫",
       imgSrc: "/v4.jpg",
       color: "bg-purple-100"
     },
@@ -25,17 +25,17 @@ const features = [
       color: "bg-pink-100"
     },
     {
-      text: "You support and believe in me even when the dreams are shaky 💖",
+      text: "You support and believe in me, even when the dreams are shaky 💖",
       imgSrc: "/v6.jpg",
       color: "bg-red-100"
     },
     {
-      text: "I'm grateful for you, your live and your service to God and man.🌟",
+      text: "I'm grateful for you, your life and your service to God and man.🌟",
       imgSrc: "/v7.jpg",
       color: "bg-rose-100"
     },
     {
-      text: "Thank you for loving me, the kids, your family and all around you.Thank you for loving me, the kids, your family and all around you.💫",
+      text: "Thank you for loving me, the kids, your family and all around you. Thank you for loving me, the kids, your family and all around you.💫",
       imgSrc: "/v8.jpg",
       color: "bg-purple-100"
     },
@@ -45,7 +45,7 @@ const features = [
       color: "bg-rose-100"
     },
     {
-      text: "Your intelligence and wit never cease to amaze me 💫",
+      text: "Your intelligence and wit never cease to amaze me. Happy Valentine's Day MM.💫",
       imgSrc: "/v10.jpg",
       color: "bg-purple-100"
     },
