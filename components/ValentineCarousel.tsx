@@ -9,7 +9,7 @@ const ValentineCarousel = () => {
   const [showWelcome, setShowWelcome] = useState(true);
 
   return (
-    <div className='fixed inset-0 overflow-hidden'>
+    <div className='bg-gradient-to-b fixed inset-0 overflow-hidden'>
     <AnimatePresence mode="wait">
       {showWelcome ? (
         <WelcomeScreen onContinue={() => setShowWelcome(false)} />

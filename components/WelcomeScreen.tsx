@@ -21,7 +21,7 @@ interface WelcomeScreenProps {
         ))}
         
         <motion.div
-          className="text-center z-10 max-w-lg mx-auto"
+          className="text-center z-5 max-w-lg mx-auto"
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.8 }}
@@ -33,7 +33,7 @@ interface WelcomeScreenProps {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 1, duration: 0.8 }}
-            className="text-4xl sm:text-6xl font-extrabold bg-gradient-to-r from-pink-500 to-red-500 bg-clip-text text-transparent mb-8 px-4"
+            className="text-4xl sm:text-5xl font-extrabold bg-gradient-to-r from-pink-500 to-red-500 bg-clip-text text-transparent mb-8 px-4"
           >
             VAL OF PEGGY
           </motion.div>
@@ -44,7 +44,7 @@ interface WelcomeScreenProps {
           >
             <Button 
               onClick={onContinue}
-              className="bg-pink-500 hover:bg-pink-600 text-white px-6 sm:px-8 py-4 sm:py-6 text-xl rounded-full shadow-lg transition-all duration-300 hover:scale-105"
+              className="bg-black  hover:bg-pink-600 text-white px-6 sm:px-8 py-4 sm:py-6 text-xl rounded-full shadow-lg transition-all duration-300 hover:scale-105"
             >
               Continue to Your Valentine ❤️
             </Button>
